@@ -11,6 +11,10 @@ const Container = styled.div`
 
 const Label = styled.label`
   font-size: 1.1rem;
+  @media (max-width: 1100px) {
+   align-self: center;
+   margin-right: 50px;
+ }
 `;
 
 const Input = styled.input`
@@ -28,6 +32,12 @@ const Input = styled.input`
     outline: none;
 
   }
+
+  @media (max-width: 1100px) {
+   width: 70vw;
+   align-self: center;
+   margin-right: 50px;
+ }
 `;
 
 
@@ -46,6 +56,12 @@ const Button = styled.button`
     color: #cbb3f2;
     transform: scale(1.1);
   }
+
+  @media (max-width: 1100px) {
+   width: 70vw;
+   align-self: center;
+   margin-right: 50px;
+ }
 `;
 
 const Form = ({amount, handleSetAmount, handleSetResults}) => {

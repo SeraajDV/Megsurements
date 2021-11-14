@@ -45,6 +45,10 @@ const Result = styled.p`
   font-size: 3em;
   margin: 0;
   align-self: flex-end;
+
+  @media (max-width: 1100px) {
+   font-size: 2em;
+ }
 `;
 
 const Label = styled.label`
