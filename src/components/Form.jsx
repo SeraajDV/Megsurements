@@ -73,7 +73,7 @@ const Form = ({amount, handleSetAmount, handleSetResults}) => {
   return (
     <Container>
       <Label>Amount</Label>
-      <Input placeholder="How much you want to convert?" value={amount} onChange={e => handleSetAmount(e.target.value)} />
+      <Input type="number" placeholder="How much you want to convert?" value={amount} onChange={e => handleSetAmount(e.target.value)} />
       <Button onClick={handleConvertFToC}>Convert now</Button>
     </Container>
   )
